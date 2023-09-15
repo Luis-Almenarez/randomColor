@@ -1,0 +1,40 @@
+@use "../base/variables" as v;
+.main {
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  gap: 5rem;
+}
+
+.color-generated {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  font-style: italic;
+}
+
+#color {
+  width: 5rem;
+  height: 5rem;
+  background-color: v.$light;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 200ms;
+}
+
+.btn {
+  border: 1px solid;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 500ms;
+
+  &:hover {
+    background-color: transparent;
+    color: v.$light;
+  }
+}
