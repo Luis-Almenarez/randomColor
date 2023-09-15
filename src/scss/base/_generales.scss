@@ -18,7 +18,7 @@ body {
   place-items: center;
   min-height: 100vh;
   font-family: v.$font-secundaria;
-  background-color: v.$principal-color;
+  background-color: black;
   color: v.$light;
-  transition: all 1s;
+  transition: all 500ms;
 }

@@ -8,6 +8,7 @@ function colorGenerate() {
   const newColor = "#" + randomColor;
   codeColor.innerHTML = newColor;
   color.style.backgroundColor = newColor;
+  body.style.backgroundColor = newColor;
 }
 
 btn.addEventListener("click", colorGenerate);

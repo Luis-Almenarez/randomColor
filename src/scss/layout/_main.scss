@@ -23,9 +23,16 @@
   transition: all 200ms;
 }
 
+#code-color {
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
 .btn {
   border: 1px solid;
   padding: 1.5rem;
+  color: v.$light;
+  background-color: transparent;
   border-radius: 1rem;
   cursor: pointer;
   font-size: 1.5rem;
@@ -34,7 +41,7 @@
   transition: all 500ms;
 
   &:hover {
-    background-color: transparent;
+    background-color: v.$beige;
     color: v.$light;
   }
 }
