@@ -1,5 +1,6 @@
 # Random Color Generator.
 
+Prácticando tecnologías como HTMl, CSS y JavaScript.
 
 ## Tecnologías Utilizadas
 
